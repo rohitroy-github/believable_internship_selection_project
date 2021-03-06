@@ -32,17 +32,17 @@ h6 {
     padding-top: 50px;
 }
 
-#banner_image {
+.banner_image {
     padding-bottom: 50px;
     margin-bottom: 20px;
-    height:100%;
+    height:50%;
     width: 100%;
-    background: url(./img/Designing\ Studio\ poster\ –\ 1.png) no-repeat center center;
-    background-size: cover;
+    background: url(./img/main_poster.png) no-repeat center center;
+    background-size:cover;
 }
 
 #banner_content {
-    font-size: ;
+    font-size: 15 px;
     position: relative;
     text-align: left;
     padding-top: 0%;
@@ -73,16 +73,6 @@ h6 {
     border-spacing: 0 10px;
 
 }
-
-/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
-#ios:before, #samsung:before, #oneplus:before, #xiaomi:before{
-    display: block;
-    content: " ";
-    margin-top: -85px;
-    height: 85px;
-    visibility: hidden;
-}
-
 
 #login-panel .panel-footer{
     font-weight:normal;
@@ -188,7 +178,7 @@ button.pbtn {
   margin: 0.5em;
 }
   
-.one-container{
+.tainer{
 padding-left: 5px;
 }
 
